@@ -123,7 +123,7 @@ def main(aws_environment):
                         'AccessKeyID': access_key["access_key_id"],
                         'Status': access_key["status"],
                         'Usage': access_key["usage_info"],
-                        'Age': access_key["age_days"]
+                        'Age(Days)': access_key["age_days"]
                         
                     })
                 
