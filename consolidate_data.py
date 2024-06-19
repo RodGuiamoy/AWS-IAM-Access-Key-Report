@@ -30,7 +30,7 @@ for file in csv_files:
 current_date = datetime.now().strftime('%m%d%Y')
 
 # Create a new Excel writer object
-writer = pd.ExcelWriter(f"AWS Console Access Report - {current_date}.xlsx", engine='xlsxwriter')
+writer = pd.ExcelWriter(f"AWS Access Key Report - {current_date}.xlsx", engine='xlsxwriter')
 
 # Write each dataframe to a separate sheet in the Excel file, naming sheets after the filename
 for i, df in enumerate(dfs):

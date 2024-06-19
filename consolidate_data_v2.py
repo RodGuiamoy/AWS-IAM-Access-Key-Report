@@ -36,7 +36,7 @@ if dfs:
     current_date = datetime.now().strftime('%m%d%Y')
     
     # Output filename
-    output_file = f"AWS Console Access Report - {current_date}.csv"
+    output_file = f"AWS Access Key Report - {current_date}.csv"
     
     # Write the combined dataframe to a CSV file
     try:
